@@ -2,8 +2,8 @@ body{
     background-color: darkgreen;
 }
 .container{
-    "positional: absolute;
-    left: 50%;
-    top: 50%;
+    position: absolute;
+    left: 20%;
+    top: 30%;
     transform: translate(-50%-50%);
 }
