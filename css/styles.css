@@ -1,12 +1,9 @@
 body{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-color: darkgreen;
    }
    h1 {
      font-family: 'Gugi', cursive;
      font-weight: bolder;
-     text-align: center;
      color: whitesmoke;
      margin-bottom: 0px;
      margin-top: 10px;
@@ -71,44 +68,11 @@ body{
      h2{
        font-size:22px;
      }
-     #heading img{
-       float: left;
-       width: 40%;
-       height: 60%;;
-     }
-   }
-   #heading img{
-     float: left;
-     width: 10%;
-     margin-top: -10px;
-   }
-   .card{
-     background: rgb(145, 168, 192);
    }
    .card-body{
      color: rgb(0, 0, 0);
    }
    .card-deck{
-     padding-bottom: 20px;
-     font-weight: 600;
-     font-family: 'Sorts Mill Goudy', serif;
+     font-family: serif;
      font-size: 18px;
-   }
-   .footer-copyright{
-     color: rgb(255, 255, 255);
-     font-weight: 600;
-     font-size: 18px;
-   }
-   .footer-copyright a{
-   color: rgb(255, 255, 255);;
-   font-weight: 600;
-   }
-   .footer-copyright a:hover{
-     color: rgb(254, 254, 254);
-     font-weight: 700;
-     text-decoration: none;
-   }
-   .card-text a:hover{
-     color: rgb(0, 0, 0);
-     text-decoration: none;
    }
