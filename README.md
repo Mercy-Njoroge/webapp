@@ -1,4 +1,4 @@
-# {MY PORTFOLIO}
+# {Akan Names}
 #### {This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender it outputs their Akan Names. }, {1/5/2020}
 #### By **{No contributors this was a personal project}**
 ## Description

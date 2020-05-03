@@ -12,29 +12,28 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="container-fluid" style="background-image:url(images/Be.jpg);">
+<body class="container-fluid">
   <div id="heading"> 
-    <img src="images/akan.png" alt=" ">
-    <h1>Welcome To Akan Names</h1>
-    <h2 id="get">Get Your Akan Name Easy and Fast!!!!!!!</h2>
+    <h1>About Akan Names</h1>
+    <h2 id="get">Find your Akan Name</h2>
   </div>
   <div class="overlay">
       <div class="container">
-        <h2>Enter Your Details Here!</h2>
-        <form name="myForm" class="form" onsubmit="validate();">
+        <h2>Enter Your Details Here</h2>
+        <form name="theForm" class="form" onsubmit="validate();">
           <div class="form-group">
             <label for="number">Year of Birth:</label>
             <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
           </div>
-          <div class="form-group">
+          <div class="formgroup">
             <label for="month">Month of Birth:</label>
             <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
           </div>
-          <div class="form-group">
+          <div class="formgroup">
             <label for="date">Date of Birth:</label>
             <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
           </div>
-          <div class="form-group">
+          <div class="formgroup">
             <label for="month">Gender</label><br>
             <div class="form-check-inline">
               <label class="form-check-label">
@@ -47,7 +46,7 @@
               </label>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+          <button type="submit" class="btn btn-primary" onclick="findName();">Submit</button>
           <br>
         </form>
         <p id="results"> </p>
@@ -56,15 +55,13 @@
   <div class="card-deck">
     <div class="card ">
       <div class="card-body text-center">
-        <p class="card-text">Akan names are derived from Ghanian culture. Get your Akan name by filling the form above!</p>
+        <p class="card-text">Akan names are a tradition from the Ghanian culture. Get your Akan name by filling out the form above</p>
       </div>
     </div>
     <div class="card ">
         <div class="card-body text-center">
-          <p class="card-text">Names are based on gender and the date you were born. <br>
+          <p class="card-text">This names are given according to gender and the date you were born. <br>
             <span class="fa-stack fa-lg">
-                <i class="fa fa-globe fa-stack-1x" style="color:rgb(188, 222, 252)"></i>
-              </span><a href="http://www.afropedea.org/akan-names"> More info on Akan names</a>
           </p>
         </div>
       </div>
@@ -75,11 +72,6 @@
         </div>
       </div>
   </div>
-  <footer class="page-footer ">
-    <div class="footer-copyright text-center py-3">Copyright © 2019:
-      <a href="https://github.com/Owiti-Charles"> Charles Owiti</a>
-    </div>
-  </footer>
-<script src="javascript/script.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
