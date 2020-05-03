@@ -17,15 +17,43 @@
         they were born and then depending on their gender outputs their  Akon Names.</p>\
         <div class="container">
             <form id="Birthday" method="post"></form>
-            <label>Birthday Date</label>
+            <label>Birthday</label>
             <input type="date" name="" id="Date" value="" class="form-control">
          <br>
             <select class="form-control" name="" id="Gender">
+                <form id="Gender" method="post"></form>
+                <label>Gender</label>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
             </select> 
          </br>
         </div>
-
+        <div class="container">
+        <form id="Birthday" method="post">
+            <label>Birthday</label>
+            <input type="date" name="" id="Date" value="" class="form-control">
+            <table>
+                <tr>
+                    <th>Birthday</th>
+                    <td><input type="text" name="birthday"></td>
+                </tr>
+                <tr>
+                    <br>
+            <select class="form-control" name="" id="Gender">
+                <form id="Gender" method="post"></form>
+                <label>Gender</label>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select> 
+         </br>
+                    <th>Gender</th>
+                    <td><input type="password" name="Gender"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+        </div>
 </body>
 </html>
