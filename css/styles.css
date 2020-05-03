@@ -1,38 +1,4 @@
 body{
-<<<<<<< HEAD
-    background-color: darkgreen;
-}
-.container{
-    position: absolute;
-    left: 20%;
-    top: 30%;
-    transform: translate(-50%-50%);
-}
-table{
-    background-color: #6358a;
-    padding: 30px;
-    width:500px;
-    margin: auto;
-    font-size :20px;
-    color:white;
-    font-family:verdana;
-}
-input{
-    width: 100%;
-    padding: 5px;
-    margin-top: 20px;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-input[type =submit]{
-
-    margin-left: 200px;
-    background-color: #742eo8;
-    color:white;
-    padding:10px;
-    border-radius:5px;
-}
-=======
    background-color: darkgreen;
    }
    h1 {
@@ -110,4 +76,3 @@ input[type =submit]{
      font-family: serif;
      font-size: 18px;
    }
->>>>>>> gh-pages
